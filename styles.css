@@ -1,0 +1,414 @@
+/*--------------------Hovedside--------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-header{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/5d7608eb7149d50c26097a47_Tegne\ hus.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.sub-head{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/5d7608eb7149d50c26097a47_Tegne\ hus.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+ 
+p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 1px;
+}
+ 
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*--------------------Tegninger siden--------------------*/
+
+.tegninger{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.tegninger h1{
+    padding-top: 35px;
+}
+
+.tegninger-col{
+    flex-basis: 48%;
+}
+
+.tegninger-col img{
+    width: 100%;
+}
+
+.tegninger-col h1{
+    padding-top: 20px;
+}
+
+.tegninger-col p{
+    padding: 15px 0 25px;
+    color: #000000;
+    font-size: 15px;
+}
+
+
+/*--------------------Søknader siden--------------------*/
+
+.søknader{
+    width: 80%;
+    margin: auto;
+}
+
+.søknader h1{
+    padding-top: 35px;
+}
+
+.søknader-col{
+    flex-basis: 75%;
+}
+
+.søknader-cola img{
+    width: 100%;
+}
+
+.søknader-col h1{
+    padding-top: 0;
+}
+
+.søknader-col p{
+    padding: 15px 0 25px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.søknader-col span{
+    font-size: 14px;
+}
+
+
+/*--------------------Samarbeidspartnere--------------------*/
+
+.samarbeid{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.samarbeid-col img{
+    width: 100%;
+}
+
+.hero-bt{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 49px 53px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(14, 13, 13, 0.7),rgba(14, 13, 13, 0.7)),url(images/a\ byggmester2.png);
+}
+
+.hero-bt:hover{
+    border: 1px solid #000;
+    background: linear-gradient(rgba(14, 13, 13, 0.7),rgba(14, 13, 13, 0.7)),url(images/a\ byggmester2.png);
+    transition: 0.1s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------Referanse siden--------------------*/
+
+.pro{
+    width: 80%;
+    margin: auto;
+}
+
+.pro h1{
+    padding-top: 35px;
+    padding-bottom: 23px;
+}
+
+#product3 .pro3-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 84%;
+    margin: auto;
+}
+
+#product3 .pro3{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #606063;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    position: relative;
+}
+
+#product3 .pro3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+
+#product3 .pro3 img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#product3 .pro3 .des3{
+    text-align: start;
+}
+
+#product3 .pro3 .des3 span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#product3 .pro3 .des3 h5{
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product3 .pro3 .des3 i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product3 a{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #1a1a1a;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#product3 .pro5 .des5{
+    text-align: start;
+}
+
+#product3 .pro5{
+    width: 28%;
+    min-width: 250px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+/*--------------------Referanse bilder sidene--------------------*/
+
+.bilde{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+    padding-bottom: 80px;
+}
+
+.bilde p{
+    padding-top: 10px;
+}
+
+.bilde img{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
+
+.hero-btnnn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 3px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    cursor: pointer; 
+    background: #fce6e6;
+}
+
+.hero-btnnn:hover{
+    border: 1px solid #000;
+    background: #fce6e6;
+    transition: 0.2s;
+    transform: scale(1.06);
+}
+
+.linkk ul a{
+    text-align: center;
+    align-items: center;
+}
+
+.linkk{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+/*--------------------Om oss sidene--------------------*/
+
+.om {
+    width: 80%;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 80px;
+}
+
+.om h1 {
+    padding-top: 23px;
+    padding-bottom: 14px;
+}
+
+.om-col {
+    flex-basis: 70%; 
+}
+
+.om-cola img {
+    width: 160%; 
+    float: right; 
+}
+
+.om-col p {
+    color: #000000;
+    font-size: 15px;
+}
+
+@media(max-width: 700px){
+    .om-cola img {
+        width: 100%; 
+
+    }
+}
+
+
+
+/*--------------------Kontakt oss siden--------------------*/
+
+.kontakt{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.kontakt iframe{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#kontakt{
+    text-align: center;
+}
+
+#kontakt .pro4-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#kontakt .pro4{
+    width: 350px;
+    min-width: 250px;
+    padding: 10px 45px;
+    cursor: pointer;
+    position: relative;
+}
+
+#kontakt .pro4 img{
+    width: 100%;
+}
+
+#kontakt .pro4 i{
+    width: 100%;
+    font-size: 30px;
+}
+
+#kontakt .pro4 .des4{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#kontakt .pro4 .des4 h6{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 23px;
+    text-align: center;
+}
+
+#kontakt .pro4 .des4 h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 13px;
+    text-align: center;
+}
+
+#kontakt .pro4 .des4 i{
+    font-size: 20px;    
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    border: 3px;
+}
+
+#kontakt .pro4 .des4 a{
+    display: inline-block;
+    padding-top: 5px;
+    line-height: 1;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.kontakt{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.kontakt iframe{
+    width: 100%;
+}
+
+
+
